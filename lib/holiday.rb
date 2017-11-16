@@ -71,7 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
       holidays_caps = holiday.capitalize
       holidays_ final = holidays_caps.titleize
       new_value = value.join(", ")
-      puts "  #{holidays_caps}: #{new_value}"
+      puts "  #{holidays_final}: #{new_value}"
     end
   end
 
