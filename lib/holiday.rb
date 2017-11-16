@@ -69,8 +69,8 @@ def all_supplies_in_holidays(holiday_hash)
 
     holidays.each do |holiday, value|
       holidays_caps = holiday.capitalize
-      value.join(",")
-      puts "#{holidays_caps}: #{flattened_values}"
+      new_value = value.join(",")
+      puts "#{holidays_caps}: #{new_value}"
     end
   end
 
