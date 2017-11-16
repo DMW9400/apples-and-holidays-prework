@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
 
     holidays.each do |holiday, value|
       holidays_caps = holiday.capitalize
-      holidays_ final = holidays_caps.split("_")
+      holidays_ underscore = holidays_caps.split("_")
       new_value = value.join(", ")
       puts "  #{holidays_final}: #{new_value}"
     end
