@@ -67,14 +67,14 @@ def all_supplies_in_holidays(holiday_hash)
     season_caps = season.capitalize
     puts "#{season_caps}:"
 
-    holidays.each do |holiday, value|
-      holiday_to_s = holiday.to_s
-      holidays_caps = holiday_to_s.capitalize
-      holidays_underscore = holidays_caps.split("_")
-      holidays_final = holidays_underscore.split('_').map(&:capitalize).join(' ')
-      new_value = value.join(", ")
-      puts "  #{holidays_final}: #{new_value}"
-    end
+    # holidays.each do |holiday, value|
+    #   holiday_to_s = holiday.to_s
+    #   holidays_caps = holiday_to_s.capitalize
+    #   holidays_underscore = holidays_caps.split("_")
+    #   holidays_final = holidays_underscore.split('_').map(&:capitalize).join(' ')
+    #   new_value = value.join(", ")
+    #   puts "  #{holidays_final}: #{new_value}"
+    # end
   end
 
 
