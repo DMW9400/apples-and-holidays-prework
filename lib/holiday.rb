@@ -44,13 +44,14 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-  
+
 
 end
 
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
-
+  hash_values = holiday_hash[:winter].values
+  hash_values.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
